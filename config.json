@@ -2,7 +2,7 @@
   "config": {
     "version": "3.0.3",
     "ads": {
-      "enabled": true,
+      "enabled": false,
       "mode_ads_banner": "facebook",
       "mode_ads_interstitial": "facebook",
       "mode_ads_native": "facebook",
@@ -55,7 +55,7 @@
       "image": "https://raw.githubusercontent.com/medprogrammer/configs/main/Webp.net-compress-image.jpg",
       "link": "https://raw.githubusercontent.com/medprogrammer/configs/main/Webp.net-compress-image.jpg",
       "loader": {
-        "enabled": true,
+        "enabled": false,
         "duration": 5000
       }
     },
@@ -72,12 +72,12 @@
     },
     "activities": {
       "splash": {
-        "duration": 10000
+        "duration": 5000
       },
       "start": {
-        "enabled": true,
+        "enabled": false,
         "loader": {
-          "enabled": true,
+          "enabled": false,
           "duration": 5000
         }
       },
@@ -90,7 +90,7 @@
           "_comment": "type = image, text, card",
           "type": "image",
           "loader": {
-            "enabled": true,
+            "enabled": false,
             "duration": 5000
           }
         }
