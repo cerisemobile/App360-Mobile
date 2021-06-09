@@ -5,7 +5,7 @@
       "enabled": true,
       "mode_ads_banner": "unity",
       "mode_ads_interstitial": "unity",
-      "mode_ads_native": "",
+      "mode_ads_native": "admob",
       "mode_ads_rewarded": "",
       "adcolony": {
         "adcolony_app_id": "appaa814d2551b94cdb81",
@@ -14,13 +14,11 @@
         "adcolony_rewarded_id": ""
       },
       "admob": {
-        "admob_banner_id": "ca-app-pub-3940256099942544/6300978111",
+        "admob_banner_id": "ca-app-pub-9807307358587553/1447467287",
         "admob_interstitial_id": [
-          "ca-app-pub-3940256099942544/1033173712",
-          "ca-app-pub-3940256099942544/1033173712",
-          "ca-app-pub-3940256099942544/1033173712"
+          "ca-app-pub-9807307358587553/56062258049"
         ],
-        "admob_native_id": "ca-app-pub-3940256099942544/2247696110",
+        "admob_native_id": "ca-app-pub-9807307358587553/3882058939",
         "admob_rewarded_id": "",
         "admob_unit_id": ""
       },
@@ -96,14 +94,17 @@
         }
       },
       "item": {
-        "native_ad": false,
+        "native_ad": true,
         "banner_ad": true,
-        "interstitial_ad": false
+        "interstitial_ad": true
       }
     }
   },
   "data": {
     "items": [
+      {
+        "type": "native_ad"
+      },
       {
         "image": "https://wallpapercave.com/wp/wp1837540.png",
         "title": "ABOUT",
@@ -153,7 +154,10 @@ You are allowed a total of four additional team members to your side and they wi
 Each soldier has a rank from C (lowest) to S (highest) so keep that in mind when you're forming your team.
 Once your team is in battle, you can have them perform one of three actions. The first is Focus, which once you have targeted a part of the Titan to attack everyone on your team will focus on that Titan/part.
         Fan Out is the second and will cause team members to automatically fight nearby Titans. Escort will cause team members to protect important allied soldiers from Titans. You can toggle between all three by pressing the the down analog button.
-Some characters like Armin have a special skill that lets you go further with the commands and lets you tell which member what part of the Titan to attack."
+Some characters like Armin have a special skill that lets you go further with the commands and lets you tell which member what part of the Titan to attack.",
+      {
+        "type": "native_ad"
+      }
       }    
     ]
   }
