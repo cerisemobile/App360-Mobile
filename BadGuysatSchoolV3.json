@@ -4,7 +4,7 @@
     "ads": {
       "enabled": true,
       "mode_ads_banner": "facebook",
-      "mode_ads_interstitial": "unity",
+      "mode_ads_interstitial": "facebook",
       "mode_ads_native": "facebook",
       "mode_ads_rewarded": "",
       "adcolony": {
@@ -29,7 +29,7 @@
       },
       "facebook": {
         "facebook_banner_id": "191805679507399_191805986174035",
-        "facebook_interstitial_id": "IMG_16_9_APP_INSTALL#173186393601951_288058788781377",
+        "facebook_interstitial_id": "191805679507399_192038892817411",
         "facebook_native_id": "191805679507399_191807782840522"
       },
       "unity": {
@@ -91,12 +91,12 @@
           "type": "image",
           "loader": {
             "enabled": true,
-            "duration": 4000
+            "duration": 5000
           }
         }
       },
       "item": {
-        "native_ad": false,
+        "native_ad": true,
         "banner_ad": true,
         "interstitial_ad": true
       }
