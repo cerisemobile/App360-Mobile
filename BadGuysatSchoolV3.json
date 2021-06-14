@@ -2,10 +2,10 @@
   "config": {
     "version": "3.0.3",
     "ads": {
-      "enabled": false,
-      "mode_ads_banner": "facebook",
-      "mode_ads_interstitial": "facebook",
-      "mode_ads_native": "facebook",
+      "enabled": true,
+      "mode_ads_banner": "unity",
+      "mode_ads_interstitial": "unity",
+      "mode_ads_native": "",
       "mode_ads_rewarded": "",
       "adcolony": {
         "adcolony_app_id": "appaa814d2551b94cdb81",
